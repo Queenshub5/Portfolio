@@ -26,7 +26,7 @@ function Hero() {
               <h3 className="text-3xl font-extrabold text-black">
                 Welcome.
               </h3>
-            <p className="text-gray-500">
+            <p className="text-gray-500 text-2xl">
               <br />I turn design into functional, scalable web applications.{" "}
               <br />
               Let&apos;s build your next project to life.

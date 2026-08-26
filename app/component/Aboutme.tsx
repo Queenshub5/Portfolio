@@ -39,7 +39,8 @@ function Aboutme() {
     { name: "CSS3", icon: <FaCss3Alt />, color: "bg-gray-100 text-[#264DE4]" },
   ];
   return (
-    <div className="">
+    <div id='about'>
+      
       <div className="max-w-[90%] mx-auto">
         <div className="flex flex-col justify-center items-center  mt-6 ">
           <h1 className="font-extrabold text-5xl text-gray-600 border-l-6 border-b-2">
@@ -62,17 +63,6 @@ function Aboutme() {
             Turning figma design into real websites.{" "}
           </p>
 
-          {/* <div className="flex flex-col items-start w-1/2">
-
-          <h2 className="font-bold uppercase text-3xl mt-5 border-l-5 border-b-2 w-full">My Focus</h2>
-          <p>
-            I build responsive and scalable interface using modern web
-            technologies to create digital interactive experience that are
-            beautiful and easy to use.
-            <br />
-            Turning figma design into real websites.
-          </p>
-          </div> */}
         </div>
 
         <h2 className="flex justify-center font-extrabold font-sans uppercase text-2xl mt-10">

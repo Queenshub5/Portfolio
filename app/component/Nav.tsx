@@ -19,15 +19,15 @@ function Nav() {
 
               {/*link wrapper  */}
           <div className="flex items-center justify-between gap-8 ">
-            <Link href="/" className="hover:text-white">
+            <a href="/" className="hover:text-white">
               Home
-            </Link>
-            <Link href="/about" className="hover:text-white">
+            </a>
+            <Link href="#about" className="hover:text-white">
               About
             </Link>
-            <Link href="/project" className="hover:text-white">
+            <a href="#project" className="hover:text-white">
               Project
-            </Link>
+            </a>
           </div>
           
           <div className="flex gap-2">
