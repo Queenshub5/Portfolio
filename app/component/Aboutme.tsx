@@ -41,15 +41,16 @@ function Aboutme() {
   return (
     <div id='about'>
       
-      <div className="max-w-[90%] mx-auto">
+      <div className="max-w-[90%] mx-auto mt-40 min-h-screen">
         <div className="flex flex-col justify-center items-center  mt-6 ">
-          <h1 className="font-extrabold text-5xl text-gray-600 border-l-6 border-b-2">
+          <h1 className="font-extrabold text-5xl text-gray-700 border-l-6 border-b-2 border-gray-900">
             Meet Me
           </h1>
-          <h2 className="font-extrabold mt-6 tracking-wide text-3xl font-serif">
+          <h2 className="font-extrabold mt-6  tracking-wide text-3xl font-serif">
             Hello am Osho Elizabeth
           </h2>
-          <p className="text-[20px] mt-2 text-white">
+          <div className="flex items-start gap-40 mt-10">
+          <p className="text-[20px] mt-2 text-black">
             An aspiring front-end developer passionate about creating websites
             that are scalable and simple to use. <br /> I value team work, open
             to learning and clear comunication to deliver quality results.
@@ -62,7 +63,7 @@ function Aboutme() {
             <br />
             Turning figma design into real websites.{" "}
           </p>
-
+          </div>
         </div>
 
         <h2 className="flex justify-center font-extrabold font-sans uppercase text-2xl mt-10">

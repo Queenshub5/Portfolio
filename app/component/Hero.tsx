@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="">
+    <div className="h-screen">
       <div className="mx-auto max-w-[90%]">
         <div className=" flex items-center justify-between mt-20">
           {/* left hero section */}
@@ -13,7 +13,7 @@ function Hero() {
               alt="image"
               width={100}
               height={100}
-              className="w-85 h-90  bg-gray-100 object-cover rounded-full "
+              className="w-85 h-90  bg-[#d1cccc] object-cover rounded-full "
             />
             <h2 className="font-extrabold text-center text-3xl uppercase">
               Osho Elizabeth <br />

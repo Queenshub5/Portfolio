@@ -3,7 +3,7 @@ import Nav from "./component/Nav";
 import Hero from "./component/Hero";
 import Footer from "./component/Footer";
 import Aboutme from "./component/Aboutme";
-import Contact from "./component/Contact";
+import Contact1 from "./component/contact1";
 import Project from "./component/Project";
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <Hero/>
       <Aboutme/>
       <Project/>
-      <Contact/>
+      <Contact1/>
       <Footer/>
 
     </div>
