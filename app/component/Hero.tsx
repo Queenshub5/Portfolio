@@ -17,7 +17,7 @@ function Hero() {
             />
             <h2 className="font-extrabold text-center text-3xl uppercase">
               Osho Elizabeth <br />
-              Kemi
+              {/* Kemi */}
             </h2>
           </div>
 
