@@ -55,7 +55,7 @@ function Aboutme() {
               I work
               primarily with JavaScript, TypeScript, React, Next.js and Tailwind
               CSS, turning designs and ideas into functional digital
-              experiences. I value team work, open to learning and clear
+              experiences. <br/> I value team work, open to learning and clear
               comunication to deliver quality results.
             </p>
 
