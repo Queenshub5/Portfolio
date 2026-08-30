@@ -23,15 +23,13 @@ function Hero() {
 
           {/* Right hero section */}
           <div className="flex flex-col items-start justify-start w-1/2 gap-9">
-              <h3 className="text-3xl font-extrabold text-black">
-                Welcome.
-              </h3>
+            <h3 className="text-3xl font-extrabold text-black">Welcome.</h3>
             <p className="text-gray-500 text-2xl">
-              <br />I turn design into functional, scalable web applications.{" "}
-              <br />
+              <br />I build scalable, responsive and production-ready
+              applications using React, Next.js, TypeScript and TailwindCss. <br />
               Let&apos;s build your next project to life.
             </p>
-            
+
             <button className="bg-gray-900 text-white px-5 py-2 rounded-full">
               About Me
             </button>
