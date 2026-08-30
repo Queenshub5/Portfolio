@@ -6,7 +6,7 @@ import ThemeToggle from "./ThemeToggle";
 
 function Nav() {
   return (
-    <div className="sticky top-15 ">
+    <div className="container sticky top-15 ">
       <div className="max-w-[50%] mx-auto">
         <div className="flex justify-between mt-10 border border-black text-black rounded-full py-2 bg-[#d1cccc42] backdrop-blur-2xl">
           <Image
@@ -25,12 +25,15 @@ function Nav() {
             <Link href="#about" className="hover:text-white">
               About
             </Link>
+            <Link href="#skill" className="hover:text-white">
+              Skills
+            </Link>
             <a href="#project" className="hover:text-white">
               Project
             </a>
           </div>
 
-          <div className="flex gap-2">
+          <div className="flex gap-2 mr-6">
             <button className="bg-black text-white hover:text-amber-700 rounded-full px-8 py-1">
               Contact
             </button>

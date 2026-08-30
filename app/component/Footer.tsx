@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 function Footer() {
   return (
-    <div>
+    <div className='container mx-auto'>
         <div className='bg-gray-400 h-15 w-full pt-6'>
              <div className='flex justify-between text-center gap-10'>
         <Image src="/images/lizy.png" alt='image' width={50} height={50} className='rounded-full w-6'/>

@@ -4,7 +4,7 @@ import Image from 'next/image';
 function Project() {
   return (
     <div id='project'>
-    <div className="max-w-[90%] mx-auto mt-40 min-h-screen">
+    <div className="max-w-[90%] mx-auto mt-40">
       <div className="flex justify-center">
       <h1 className=" font-extrabold text-5xl text-gray-700 border-l-6 border-b-2">
             Project

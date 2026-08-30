@@ -26,13 +26,18 @@ function Hero() {
             <h3 className="text-3xl font-extrabold text-black">Welcome.</h3>
             <p className="text-gray-500 text-2xl">
               <br />I build scalable, responsive and production-ready
-              applications using React, Next.js, TypeScript and TailwindCss. <br />
+              applications using React, Next.js, TypeScript, and TailwindCss. <br />
               Let&apos;s build your next project to life.
             </p>
 
+            <div className="flex gap-6">
             <button className="bg-gray-900 text-white px-5 py-2 rounded-full">
-              About Me
+              View Project
             </button>
+            <button className="bg-gray-900 text-white px-5 py-2 rounded-full">
+              Contact Me
+            </button>
+            </div>
           </div>
         </div>
       </div>

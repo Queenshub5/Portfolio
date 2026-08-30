@@ -33,7 +33,8 @@ export default function ContactPage() {
     "w-full bg-white rounded-lg px-4 py-3 text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-black focus:bg-gray-50 transition";
 
   return (
-    <div className="min-h-screen flex flex-col items-center py-16 px-4">
+    <div className="container mx-auto">
+    <div className="flex flex-col items-center py-16 px-4">
       <h2 className="font-extrabold text-5xl text-gray-700 border-l-6 border-b-2 mb-10">Contact</h2>
       <p>Get In Touch With Me</p>
       <div className="w-full max-w-xl">
@@ -104,6 +105,7 @@ export default function ContactPage() {
           </button>
         </form>
       </div>
+    </div>
     </div>
   );
 }
