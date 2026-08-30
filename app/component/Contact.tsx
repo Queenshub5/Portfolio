@@ -1,19 +1,19 @@
 import React from "react";
 
-function Contact() {
-  return (
-    <div className="container mx-auto">
-      <form onSubmit={}>
-        <input>
+// function Contact() {
+//   return (
+//     <div className="container mx-auto">
+//       <form onSubmit={}>
+//         <input>
         
-        </input>
+//         </input>
 
-      </form>
-    </div>
-  );
-}
+//       </form>
+//     </div>
+// //   );
+// }
 
-export default Contact;
+// export default Contact;
 
 
 {/* <div className=""> 
