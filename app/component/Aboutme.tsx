@@ -40,7 +40,7 @@ function Aboutme() {
   ];
   return (
     <div id="about">
-      <div className="max-w-[90%] mx-auto mt-40 min-h-screen">
+      <div className="max-w-[90%] mx-auto mt-40">
         <div className="flex flex-col justify-center items-center  mt-6 ">
           <h1 className="font-extrabold text-5xl text-gray-700 border-l-6 border-b-2 border-gray-900">
             Meet Me
@@ -55,14 +55,15 @@ function Aboutme() {
               I work
               primarily with JavaScript, TypeScript, React, Next.js and Tailwind
               CSS, turning designs and ideas into functional digital
-              experiences. <br/> I value team work, open to learning and clear
-              comunication to deliver quality results.
+              experiences. 
             </p>
 
             <p className="text-[20px]">
               I enjoy solving frontend problems, creating reusable components
               and paying attention to details such as responsiveness,
               accessibility, performance and user experience. 
+              <br/> I value team work, open to learning and clear
+              comunication to deliver quality results.
               {/* I build responsive
               and scalable interface using modern web technologies to create
               digital interactive experience that are beautiful and easy to use. */}

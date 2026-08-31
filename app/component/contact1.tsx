@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { toast } from "sonner";
+import { toast, Toaster } from "sonner"
 
 export default function ContactPage() {
   const [form, setForm] = useState({
@@ -34,11 +34,12 @@ export default function ContactPage() {
 
   return (
     <div className="container mx-auto">
-    <div className="flex flex-col items-center py-16 px-4">
-      <h2 className="font-extrabold text-5xl text-gray-700 border-l-6 border-b-2 mb-10">Contact</h2>
+    <div className="flex flex-col items-center py-16 px-4 mt-40">
+      <h2 className="font-extrabold text-5xl text-gray-700 border-l-6 border-b-2 mb-10" id="contact">Contact</h2>
       <p>Get In Touch With Me</p>
       <div className="w-full max-w-xl">
-        <form onSubmit={handleSubmit} className="flex flex-col gap-6">
+        <Toaster richColors position="top-center"/>
+        <form onSubmit={handleSubmit}   className="flex flex-col gap-6">
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
               Name

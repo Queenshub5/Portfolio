@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="h-screen">
+    <div className="">
       <div className="mx-auto max-w-[90%]">
         <div className=" flex items-center justify-between mt-20">
           {/* left hero section */}
@@ -15,15 +15,15 @@ function Hero() {
               height={100}
               className="w-85 h-90  bg-[#d1cccc] object-cover rounded-full "
             />
-            <h2 className="font-extrabold text-center text-3xl uppercase">
+            {/* <h2 className="font-extrabold text-center text-3xl uppercase">
               Osho Elizabeth <br />
               {/* Kemi */}
-            </h2>
+            {/* </h2> */} 
           </div>
 
           {/* Right hero section */}
           <div className="flex flex-col items-start justify-start w-1/2 gap-9">
-            <h3 className="text-3xl font-extrabold text-black">Welcome.</h3>
+            <h3 className="text-3xl font-extrabold text-black">Osho Elizabeth Kemi</h3>
             <p className="text-gray-500 text-2xl">
               <br />I build scalable, responsive and production-ready
               applications using React, Next.js, TypeScript, and TailwindCss. <br />
