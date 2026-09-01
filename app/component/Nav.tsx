@@ -46,7 +46,7 @@ function Nav() {
 
           {/* Desktop Link Wrapper (Hidden on Mobile) */}
           <div className="hidden md:flex items-center justify-between gap-6 lg:gap-8">
-            <NavLinks />
+             <NavLinks />
           </div>
 
           {/* Right Action Buttons */}
@@ -90,7 +90,7 @@ function Nav() {
           {/* Mobile Dropdown Menu Drawer */}
           {isOpen && (
             <div className="absolute top-[calc(100%+10px)] left-0 right-0 md:hidden flex flex-col items-center bg-[#d1ccccfb] backdrop-blur-3xl border border-black rounded-2xl py-4 shadow-xl z-50">
-              <NavLinks />
+              <NavLinks /> 
             </div>
           )}
 

@@ -15,10 +15,7 @@ function Hero() {
               height={100}
               className="w-85 h-90  bg-[#d1cccc] object-cover rounded-full "
             />
-            {/* <h2 className="font-extrabold text-center text-3xl uppercase">
-              Osho Elizabeth <br />
-              {/* Kemi */}
-            {/* </h2> */} 
+            
           </div>
 
           {/* Right hero section */}
