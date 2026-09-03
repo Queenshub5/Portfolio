@@ -12,16 +12,32 @@ function Nav() {
   // Helper component to avoid repeating links in desktop and mobile menus
   const NavLinks = () => (
     <>
-      <Link href="/" className="hover:text-[#61DAFB] py-2 md:py-0" onClick={() => setIsOpen(false)}>
+      <Link
+        href="/"
+        className="hover:text-[#61DAFB] py-2 md:py-0"
+        onClick={() => setIsOpen(false)}
+      >
         Home
       </Link>
-      <Link href="#about" className="hover:text-[#61DAFB] py-2 md:py-0" onClick={() => setIsOpen(false)}>
+      <Link
+        href="#about"
+        className="hover:text-[#61DAFB] py-2 md:py-0"
+        onClick={() => setIsOpen(false)}
+      >
         About
       </Link>
-      <Link href="#skill" className="hover:text-[#61DAFB] py-2 md:py-0" onClick={() => setIsOpen(false)}>
+      <Link
+        href="#skill"
+        className="hover:text-[#61DAFB] py-2 md:py-0"
+        onClick={() => setIsOpen(false)}
+      >
         Skills
       </Link>
-      <Link href="#project" className="hover:text-[#61DAFB] py-2 md:py-0" onClick={() => setIsOpen(false)}>
+      <Link
+        href="#project"
+        className="hover:text-[#61DAFB] py-2 md:py-0"
+        onClick={() => setIsOpen(false)}
+      >
         Project
       </Link>
     </>
@@ -32,7 +48,6 @@ function Nav() {
       {/* Dynamic width: wide on mobile, controlled max-width on large screens */}
       <div className="max-w-[95%] md:max-w-[80%] lg:max-w-[60%] xl:max-w-[50%] mx-auto">
         <div className="relative flex justify-between items-center mt-5 md:mt-10 border border-black text-black rounded-3xl md:rounded-full py-3 px-4 md:px-6 bg-[#d1cccc42] backdrop-blur-2xl">
-          
           {/* Logo / Image */}
           <div className="flex items-center">
             <Image
@@ -46,19 +61,19 @@ function Nav() {
 
           {/* Desktop Link Wrapper (Hidden on Mobile) */}
           <div className="hidden md:flex items-center justify-between gap-6 lg:gap-8">
-             <NavLinks />
+            <NavLinks />
           </div>
 
           {/* Right Action Buttons */}
           <div className="flex items-center gap-3">
             {/* Contact Button (Hidden or shrunken text on tiny screens if necessary) */}
-            <Link 
-              href="#contact" 
+            <Link
+              href="#contact"
               className="bg-black text-white hover:text-blue-400 rounded-full px-4 md:px-6 py-2 md:py-3 text-sm md:text-base transition-colors"
             >
               Contact
             </Link>
-            
+
             <ThemeToggle />
 
             {/* Mobile Hamburger Button (Hidden on Desktop) */}
@@ -90,10 +105,9 @@ function Nav() {
           {/* Mobile Dropdown Menu Drawer */}
           {isOpen && (
             <div className="absolute top-[calc(100%+10px)] left-0 right-0 md:hidden flex flex-col items-center bg-[#d1ccccfb] backdrop-blur-3xl border border-black rounded-2xl py-4 shadow-xl z-50">
-              <NavLinks /> 
+              <NavLinks />
             </div>
           )}
-
         </div>
       </div>
     </div>

@@ -48,10 +48,10 @@ function Skill() {
   return (
     <div id="skill" className="container mx-auto px-4">
       {/* Changed max-[90%] to a semantic max-width container and adjusted spacing for mobile */}
-      <div className="max-w-5xl mx-auto mt-20 md:mt-40 min-h-screen">
+      <div className="max-w-5xl mx-auto mt-15 md:mt-40">
         <div className="flex justify-center">
           {/* Made the header text size scale down on smaller mobile viewports */}
-          <h1 className="font-extrabold text-3xl md:text-5xl text-gray-700 border-l-4 md:border-l-6 border-b-2 border-gray-300 px-3 mb-10">
+          <h1 className="font-extrabold text-5xl text-gray-700 border-l-6 border-b-2 border-gray-900 mb-10">
             Skills
           </h1>
         </div>

@@ -4,11 +4,12 @@ import Image from "next/image";
 function Project() {
   return (
     <div id="project">
+       {/* <div className="max-w-5xl mx-auto mt-15 md:mt-40 min-h-screen"></div> max-w-6xl mx-auto px-4 my-10 md:my-20 min-h-screen*/}
       {/* Changed max-w-[80%] to max-w-6xl with fluid mobile padding to prevent squishing */}
-      <div className="max-w-6xl mx-auto px-4 my-10 md:my-20 min-h-screen">
+      <div className="max-w-6xl mx-auto mt-12 md:mt-24">
         <div className="flex justify-center">
           {/* Made the header text size dynamic for mobile screens */}
-          <h1 className="font-extrabold text-3xl md:text-5xl text-gray-900 border-l-4 md:border-l-6 border-b-2 border-gray-300 px-2">
+          <h1 className="font-extrabold text-5xl text-gray-700 border-l-6 border-b-2 border-gray-900">
             Project
           </h1>
         </div>

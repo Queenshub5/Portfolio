@@ -34,8 +34,8 @@ export default function ContactPage() {
 
   return (
     <div className="container mx-auto">
-    <div className="flex flex-col items-center py-16 px-4 mt-40">
-      <h2 className="font-extrabold text-5xl text-gray-700 border-l-6 border-b-2 mb-10" id="contact">Contact</h2>
+    <div className="flex flex-col items-center py-16 px-4 mt-12 md:mt-24">
+     <h1 className="font-extrabold text-5xl text-gray-700 border-l-6 border-b-2 border-gray-900" id="contact"> Contact</h1>
       <p>Get In Touch With Me</p>
       <div className="w-full max-w-xl">
         <Toaster richColors position="top-center"/>
