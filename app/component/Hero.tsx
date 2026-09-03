@@ -35,7 +35,7 @@ function Hero() {
             {/* Scaled down text size slightly for small mobile viewports so it doesn't overwhelm */}
             <p className="text-gray-500 text-lg sm:text-xl md:text-2xl leading-relaxed">
               I build scalable, responsive and production-ready
-              applications using React, Next.js, TypeScript, and TailwindCss.
+              applications using Next.js, TypeScript, React, and TailwindCss.
               <span className="block mt-4">Let&apos;s build your next project to life.</span>
             </p>
 

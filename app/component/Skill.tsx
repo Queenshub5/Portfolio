@@ -11,6 +11,13 @@ import {
 
 const skill = [
   {
+    name: "Next.js",
+    icon: (
+      <SiNextdotjs className="text-black dark:text-white text-5xl md:text-6xl" />
+    ),
+  },
+ 
+  {
     name: "React",
     icon: <FaReact className="text-blue-500 text-5xl md:text-6xl" />,
   },
@@ -18,12 +25,7 @@ const skill = [
     name: "TailwindCSS",
     icon: <SiTailwindcss className="text-[#38bdf8] text-5xl md:text-6xl" />,
   },
-  {
-    name: "Next.js",
-    icon: (
-      <SiNextdotjs className="text-black dark:text-white text-5xl md:text-6xl" />
-    ),
-  },
+ 
   {
     name: "TypeScript",
     icon: <SiTypescript className="text-[#3178C6] text-5xl md:text-6xl" />,

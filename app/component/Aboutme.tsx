@@ -15,7 +15,7 @@ function Aboutme() {
           
           {/* Subtitle - Center aligned and scaled for small screens */}
           <h2 className="font-extrabold mt-6 tracking-wide text-2xl md:text-3xl font-serif text-center">
-            Hello, I&apos;m Osho ELizabeth Kemi
+            Hi, I&apos;m Osho ELizabeth Kemi
           </h2>
           
           {/* Paragraph Wrapper - Vertical on mobile (flex-col), horizontal on desktop (md:flex-row) */}
@@ -25,7 +25,7 @@ function Aboutme() {
             <p className="text-base md:text-lg lg:text-[20px] text-black leading-relaxed w-full">
               I&apos;m a Frontend Developer passionate about building clean,
               responsive and user-friendly web applications. <br className="hidden md:inline" />
-              I work primarily with JavaScript, TypeScript, React, Next.js and Tailwind
+              I work primarily with Next.js, TypeScript, JavaScript,  React,  and Tailwind
               CSS, turning designs and ideas into functional digital
               experiences. 
             </p>
