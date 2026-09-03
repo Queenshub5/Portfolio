@@ -51,7 +51,7 @@ function Skill() {
       <div className="max-w-5xl mx-auto mt-15 md:mt-40">
         <div className="flex justify-center">
           {/* Made the header text size scale down on smaller mobile viewports */}
-          <h1 className="font-extrabold text-5xl text-gray-700 border-l-6 border-b-2 border-gray-900 mb-10">
+          <h1 className="font-extrabold text-5xl text-gray-700 border-l-6 border-b-2 border-gray-900 px-3 mb-10">
             Skills
           </h1>
         </div>
