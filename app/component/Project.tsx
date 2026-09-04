@@ -7,12 +7,13 @@ function Project() {
     <div id="project">
       {/* Changed max-w-[80%] to max-w-6xl with fluid mobile padding to prevent squishing */}
       <div className="max-w-6xl mx-auto mt-15 md:mt-40">
-        <div className="flex justify-center">
-          {/* Made the header text size dynamic for mobile screens */}
-          <h1 className="font-extrabold text-5xl text-gray-700 border-l-6 dark:border-blue-500 border-b-2 border-gray-900 px-3 dark:text-blue-500">
-            Featured Project
-          </h1>
-        </div>
+     <div className="flex justify-center text-center px-4"> 
+  {/* Header text and borders are now dynamic for mobile screens */}
+  <h1 className="font-extrabold text-3xl md:text-5xl text-gray-700 border-l-4 md:border-l-6 dark:border-blue-500 border-b-2 border-gray-900 px-3 dark:text-blue-500"> 
+    Featured Project 
+  </h1> 
+</div>
+
 
         <div className="flex flex-col gap-8 md:gap-10 mt-10 text-gray-900 dark:text-white">
           {/* Card 1 */}
