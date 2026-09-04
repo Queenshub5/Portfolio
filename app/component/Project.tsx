@@ -10,7 +10,7 @@ function Project() {
         <div className="flex justify-center">
           {/* Made the header text size dynamic for mobile screens */}
           <h1 className="font-extrabold text-5xl text-gray-700 border-l-6 dark:border-blue-500 border-b-2 border-gray-900 px-3 dark:text-blue-500">
-            Project
+            Featured Project
           </h1>
         </div>
 
