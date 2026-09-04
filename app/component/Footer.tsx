@@ -54,7 +54,7 @@ function Footer() {
           </Link>
         </div>
 
-        <p className="flex text-center justify-center">   
+        <p className="flex text-center hover:text-blue-400 justify-center">   
           &copy; Copyright 2026 Osho Elizabeth Kemi. All right reserved
         </p>
       </div>
