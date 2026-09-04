@@ -13,7 +13,7 @@ const skill = [
   {
     name: "Next.js",
     icon: (
-      <SiNextdotjs className="text-black dark:text-white text-5xl md:text-6xl" />
+      <SiNextdotjs className="text-black text-5xl md:text-6xl" />
     ),
   },
  
@@ -53,7 +53,7 @@ function Skill() {
       <div className="max-w-5xl mx-auto mt-15 md:mt-40">
         <div className="flex justify-center">
           {/* Made the header text size scale down on smaller mobile viewports */}
-          <h1 className="font-extrabold text-5xl text-gray-700 border-l-6 border-b-2 border-gray-900 px-3 mb-10">
+          <h1 className="font-extrabold text-5xl text-gray-700 border-l-6 border-b-2 dark:border-blue-500 border-gray-900 dark:text-blue-500 px-3 mb-10">
             Skills
           </h1>
         </div>
@@ -67,7 +67,7 @@ function Skill() {
             >
               <CardContent className="flex flex-col items-center gap-3 p-0">
                 {item.icon}
-                <CardTitle className="text-base md:text-lg font-semibold text-gray-800">
+                <CardTitle className="text-base md:text-lg font-semibold text-gray-800 dark:text-white">
                   {item.name}
                 </CardTitle>
               </CardContent>

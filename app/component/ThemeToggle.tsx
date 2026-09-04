@@ -18,7 +18,8 @@ function ThemeToggle() {
      return (
     <div>
         <button onClick={toggle} className='p-2 rounded-lg text-white'>
-            { isDark ? <Sun size={30} className='text-amber-300'/> : <Moon size={30} className='text-amber-300'/>}</button>
+              { isDark ? <Sun size={30} className='text-black shadow-sm shadow-black rounded-sm'/> : <Moon size={30} className='text-[#07111F] shadow-sm shadow-black rounded-sm'/>}
+            </button>
     </div>
   )
     }

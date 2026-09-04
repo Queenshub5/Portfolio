@@ -9,12 +9,12 @@ function Project() {
       <div className="max-w-6xl mx-auto mt-15 md:mt-40">
         <div className="flex justify-center">
           {/* Made the header text size dynamic for mobile screens */}
-          <h1 className="font-extrabold text-5xl text-gray-700 border-l-6 border-b-2 border-gray-900 px-3">
+          <h1 className="font-extrabold text-5xl text-gray-700 border-l-6 dark:border-blue-500 border-b-2 border-gray-900 px-3 dark:text-blue-500">
             Project
           </h1>
         </div>
 
-        <div className="flex flex-col gap-8 md:gap-10 mt-10 text-gray-900">
+        <div className="flex flex-col gap-8 md:gap-10 mt-10 text-gray-900 dark:text-white">
           {/* Card 1 */}
           <div className="flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-10 py-6 px-6 md:px-10 shadow-sm shadow-gray-400 rounded-lg">
             <div className="w-full lg:max-w-xs xl:max-w-sm flex justify-center">
@@ -29,16 +29,16 @@ function Project() {
               </Link>
             </div>
             <p className="text-base md:text-[17px] text-center lg:text-left flex-1">
-              Cart is a collaborative Next.js and Tailwind e-commerce platform
-              featuring interactive carts, checkouts, and an admin dashboard.
-              Managed seamlessly using Git and GitHub.
+              Cart is a collaborative Next.js and Tailwind e-commerce platform. Managed seamlessly using Git and GitHub.
+              <span className="font-bold"><br/> My Role: Frontend Developer </span>
+             <br/>Built core shopping features:dynamic cart with quantity controls(increase/decrease and item removal), checkout flow and About page. 
             </p>
 
-            <div className="flex flex-col items-center lg:items-start text-center lg:text-left sm:text-nowrap">
-              <p className="font-bold text-xl md:text-2xl text-gray-700">
+            <div className="flex flex-col items-center lg:items-start text-center  lg:text-left sm:text-nowrap">
+              <p className="font-bold text-xl md:text-2xl text-gray-700 dark:text-white">
                 Tech Stack
               </p>
-              <span className="text-sm md:text-md uppercase tracking-wider text-gray-600">
+              <span className="text-sm md:text-md uppercase tracking-wider text-gray-600 dark:text-white">
                 Nextjs | Tailwindcss
               </span>
             </div>
@@ -58,15 +58,16 @@ function Project() {
               </Link>
             </div>
             <p className="text-base md:text-[17px] text-center lg:text-left flex-1">
-              ShopHub is a A collaboratively developed e-commerce application
-              featuring dynamic product data and seamless version control.
+              ShopHub is a collaborative e-commerce application built with Next.js and Tailwindcss.
+               <span className="font-bold"><br/> My Role: Frontend Developer </span>
+              <br/> Built the landing page and fetched product data from a dummy JSON API to display product and develop the cart interface.
             </p>
 
-            <div className="flex flex-col items-center lg:items-start text-center lg:text-left sm:text-nowrap">
-              <p className="font-bold text-xl md:text-2xl text-gray-700">
+            <div className="flex flex-col items-center lg:items-start text-center dark:text-white lg:text-left sm:text-nowrap">
+              <p className="font-bold text-xl md:text-2xl text-gray-700 dark:text-white">
                 Tech Stack
               </p>
-              <span className="text-sm md:text-md uppercase tracking-wider text-gray-600">
+              <span className="text-sm md:text-md uppercase tracking-wider text-gray-600 dark:text-white">
                 Nextjs | Tailwindcss
               </span>
             </div>
@@ -89,13 +90,15 @@ function Project() {
               Groco Wear is a responsive e-commerce user interface developed as
               part of a group project. Git and GitHub were used for version
               control and team collaboration throughout the project.
+              <span className="font-bold"><br/> My Role: Frontend Developer </span>
+              <br/>- Designed the e-commerce interface using HTML5
             </p>
 
             <div className="flex flex-col items-center lg:items-start text-center lg:text-left sm:text-nowrap">
-              <p className="font-bold text-xl md:text-2xl text-gray-700">
+              <p className="font-bold text-xl md:text-2xl text-gray-700 dark:text-white">
                 Tech Stack
               </p>
-              <span className="text-sm md:text-md uppercase tracking-wider text-gray-600">
+              <span className="text-sm md:text-md uppercase tracking-wider text-gray-600 dark:text-white">
                 HTML | CSS | JAVASCRIPT
               </span>
             </div>
@@ -120,10 +123,10 @@ function Project() {
               web bookmarking.
             </p>
             <div className="flex flex-col items-center lg:items-start text-center lg:text-left sm:text-nowrap">
-              <p className="font-bold text-xl md:text-2xl text-gray-700">
+              <p className="font-bold text-xl md:text-2xl text-gray-700 dark:text-white">
                 Tech Stack
               </p>
-              <span className="text-sm md:text-md uppercase tracking-wider text-gray-600">
+              <span className="text-sm md:text-md uppercase tracking-wider text-gray-600 dark:text-white">
                 Nextjs | Tailwindcss
               </span>
             </div>
@@ -147,10 +150,10 @@ function Project() {
               component development.
             </p>
             <div className="flex flex-col items-center lg:items-start text-center lg:text-left sm:text-nowrap">
-              <p className="font-bold text-xl md:text-2xl text-gray-700">
+              <p className="font-bold text-xl md:text-2xl text-gray-700 dark:text-white">
                 Tech Stack
               </p>
-              <span className="text-sm md:text-md uppercase tracking-wider text-gray-600">
+              <span className="text-sm md:text-md uppercase tracking-wider text-gray-600 dark:text-white">
                 React.js | Tailwindcss
               </span>
             </div>

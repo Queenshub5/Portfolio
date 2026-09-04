@@ -3,6 +3,8 @@
 @import "shadcn/tailwind.css";
 /* @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); */
 
+
+
 @custom-variant dark (&:where(.dark, .dark *)); 
 /* @custom-variant dark (&:is(.dark *)); */
 
@@ -128,6 +130,7 @@
   }
   html {
     @apply font-sans;
+    scroll-behavior: smooth;
   }
 }
 

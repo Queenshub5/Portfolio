@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono} from "next/font/google";
 import "./globals.css";
 import { Variable, Weight } from "lucide-react";
+// import { AppProvider } from "./context/Themetoggle";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,7 +31,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#d1cccc42]">{children} </body>
+      <body className="min-h-full flex flex-col bg-[#d1cccc42] text-black dark:bg-[#07111F] dark:text-[#F8FAFC] scroll-smooth">
+          {children}</body>
     </html>
   );
 }

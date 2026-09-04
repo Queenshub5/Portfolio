@@ -27,12 +27,12 @@ function Hero() {
           {/* Right hero section (Text container) */}
           {/* Swapped text alignments to center on mobile, left-aligned on desktop */}
           <div className="flex flex-col items-center md:items-start justify-start w-full md:w-1/2 gap-6 md:gap-9 text-center md:text-left">
-            <h3 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-black tracking-tight">
-              Osho Elizabeth Kemi
+            <h3 className="sm:text-2xl md:text-3xl font-extrabold  tracking-tight">
+              Osho Elizabeth Kemi | Frontend Software Developer
             </h3>
 
             {/* Scaled down text size slightly for small mobile viewports so it doesn't overwhelm */}
-            <p className="text-gray-500 text-lg sm:text-xl md:text-2xl leading-relaxed">
+            <p className="text-gray-500 dark:text-white text-lg sm:text-xl md:text-2xl leading-relaxed">
               I build scalable, responsive and production-ready applications
               using Next.js, TypeScript, React, and TailwindCss.
               <span className="block mt-4">
