@@ -22,25 +22,25 @@ function Footer() {
 
           {/* Stacked on mobile, row on desktop */}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-center text-sm md:text-base font-medium">
-            <Link href="/" className="hover:text-[#FD853A] transition-colors">
+            <Link href="/" className="hover:text-blue-400 transition-colors">
               Home
             </Link>
             <Link
               href="#about"
-              className="hover:text-[#FD853A] transition-colors"
+              className="hover:text-blue-400 transition-colors"
             >
               About
             </Link>
             <Link
               href="#skill"
-              className="hover:text-[#FD853A] transition-colors"
+              className="hover:text-blue-400 transition-colors"
             >
               Skills
             </Link>
 
             <Link
               href="#project"
-              className="hover:text-[#FD853A] transition-colors"
+              className="hover:text-blue-400 transition-colors"
             >
               Project
             </Link>
@@ -48,7 +48,7 @@ function Footer() {
 
           <Link
             href="#contact"
-            className="bg-black text-white hover:text-[#FD853A] rounded-full px-4 md:px-6 py-2 md:py-3 text-sm md:text-base transition-colors"
+            className="bg-black text-white hover:text-blue-400 rounded-full px-4 md:px-6 py-2 md:py-3 text-sm md:text-base transition-colors"
           >
             Contact
           </Link>

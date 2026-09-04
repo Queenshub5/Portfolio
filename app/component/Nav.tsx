@@ -12,46 +12,13 @@ function Nav() {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
-  // Helper component to avoid repeating links in desktop and mobile menus
-  // const NavLinks = () => (
-    <>
-      {/* <Link
-        href="/"
-        className="hover:text-blue-400 py-2 md:py-0"
-        onClick={() => setIsOpen(false)}
-      >
-        Home
-      </Link>
-      <Link
-        href="#about"
-        className="hover:text-blue-400 py-2 md:py-0"
-        onClick={() => setIsOpen(false)}
-      >
-        About
-      </Link>
-      <Link
-        href="#skill"
-        className="hover:text-blue-400 py-2 md:py-0"
-        onClick={() => setIsOpen(false)}
-      >
-        Skills
-      </Link>
-      <Link
-        href="#project"
-        className="hover:text-blue-400 py-2 md:py-0"
-        onClick={() => setIsOpen(false)}
-      >
-        Project
-      </Link> */}
-    </>
-  // );
 
   return (
     <div className="w-full sticky top-5 md:top-15 z-50 px-4">
       {/* Dynamic width: wide on mobile, controlled max-width on large screens */}
       <div className="max-w-[95%] md:max-w-[80%] lg:max-w-[60%] xl:max-w-[50%] mx-auto">
         <div className="relative flex justify-between items-center mt-5 md:mt-10 shadow-sm shadow-black rounded-full md:rounded-full py-3 px-4 md:px-6 bg-[#d1cccc42] backdrop-blur-2xl">
-          {/* Logo / Image */}
+           {/* Logo */}
           <div className="flex items-center">
             <Image
               src="/images/lizy.png"
@@ -92,12 +59,12 @@ function Nav() {
       >
         Project
       </Link>
-            {/* <NavLinks /> */}
+            
           </div>
 
-          {/* Right Action Buttons */}
+          
           <div className="flex items-center gap-3">
-            {/* Contact Button (Hidden or shrunken text on tiny screens if necessary) */}
+            
             <Link
               href="#contact"
               className="bg-black text-white hover:text-blue-400 rounded-full px-4 md:px-6 py-2 md:py-3 text-sm md:text-base transition-colors"
@@ -106,17 +73,6 @@ function Nav() {
             </Link>
 
             <ThemeToggle/>
-
-            {/* <button
-              onClick={toggleTheme}
-              className={`dark:bg-[#0D1B2A] bg-[#25a6eb52] text-[#2563EB] shadow-sm shadow-[#2563EB] dark:shadow-[#25a6eb52] p-2 items-center justify-center rounded-full`}
-            >
-              {theme === "light" ? (
-                <LuMoon className="h-6 w-6" />
-              ) : (
-                <LuSun className="h-6 w-6" />
-              )}
-            </button> */}
 
             {/* Mobile Hamburger Button (Hidden on Desktop) */}
             <button
