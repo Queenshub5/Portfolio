@@ -29,13 +29,9 @@ function Project() {
               </Link>
             </div>
             <p className="text-base md:text-[17px] text-center lg:text-left flex-1">
-              Cart is a full-featured e-commerce application built with Next.js
-              and Tailwind CSS. The application includes user authentication,
-              product browsing, cart management with quantity increase and
-              decrease functionality, and a checkout process. It also features
-              an admin dashboard for managing products and overseeing the
-              platform. Git and GitHub were used for version control
-              and team collaboration throughout the project.
+              Cart is a collaborative Next.js and Tailwind e-commerce platform
+              featuring interactive carts, checkouts, and an admin dashboard.
+              Managed seamlessly using Git and GitHub.
             </p>
 
             <div className="flex flex-col items-center lg:items-start text-center lg:text-left sm:text-nowrap">
@@ -62,10 +58,8 @@ function Project() {
               </Link>
             </div>
             <p className="text-base md:text-[17px] text-center lg:text-left flex-1">
-              ShopHub is an e-commerce site developed as part of a group
-              project. The team utilized the DummyJSON API to populate dynamic
-              product data, while Git and GitHub were used for version control
-              and team collaboration throughout the project.
+              ShopHub is a A collaboratively developed e-commerce application
+              featuring dynamic product data and seamless version control.
             </p>
 
             <div className="flex flex-col items-center lg:items-start text-center lg:text-left sm:text-nowrap">
@@ -149,9 +143,8 @@ function Project() {
               </Link>
             </div>
             <p className="text-base md:text-[17px] text-center lg:text-left flex-1">
-              Social Link Profile is a responsive user interface built with
-              React and Tailwind CSS, focusing on clean component-based
-              development and responsive design across different screen sizes.
+              Responsive user interface focusing on clean, cross-device
+              component development.
             </p>
             <div className="flex flex-col items-center lg:items-start text-center lg:text-left sm:text-nowrap">
               <p className="font-bold text-xl md:text-2xl text-gray-700">

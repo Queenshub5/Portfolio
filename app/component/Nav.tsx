@@ -14,28 +14,28 @@ function Nav() {
     <>
       <Link
         href="/"
-        className="hover:text-[#61DAFB] py-2 md:py-0"
+        className="hover:text-blue-400 py-2 md:py-0"
         onClick={() => setIsOpen(false)}
       >
         Home
       </Link>
       <Link
         href="#about"
-        className="hover:text-[#61DAFB] py-2 md:py-0"
+        className="hover:text-blue-400 py-2 md:py-0"
         onClick={() => setIsOpen(false)}
       >
         About
       </Link>
       <Link
         href="#skill"
-        className="hover:text-[#61DAFB] py-2 md:py-0"
+        className="hover:text-blue-400 py-2 md:py-0"
         onClick={() => setIsOpen(false)}
       >
         Skills
       </Link>
       <Link
         href="#project"
-        className="hover:text-[#61DAFB] py-2 md:py-0"
+        className="hover:text-blue-400 py-2 md:py-0"
         onClick={() => setIsOpen(false)}
       >
         Project
