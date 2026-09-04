@@ -28,10 +28,14 @@ function Project() {
                 />{" "}
               </Link>
             </div>
-            <p className="text-base md:text-[19px] text-center lg:text-left flex-1">
-              Vendora Cart is an e-commerce site developed as part of a group
-              project. Git and GitHub were used for version control and team
-              collaboration throughout the project.
+            <p className="text-base md:text-[17px] text-center lg:text-left flex-1">
+              Cart is a full-featured e-commerce application built with Next.js
+              and Tailwind CSS. The application includes user authentication,
+              product browsing, cart management with quantity increase and
+              decrease functionality, and a checkout process. It also features
+              an admin dashboard for managing products and overseeing the
+              platform. Git and GitHub were used for version control
+              and team collaboration throughout the project.
             </p>
 
             <div className="flex flex-col items-center lg:items-start text-center lg:text-left sm:text-nowrap">
@@ -57,7 +61,7 @@ function Project() {
                 />{" "}
               </Link>
             </div>
-            <p className="text-base md:text-[19px] text-center lg:text-left flex-1">
+            <p className="text-base md:text-[17px] text-center lg:text-left flex-1">
               ShopHub is an e-commerce site developed as part of a group
               project. The team utilized the DummyJSON API to populate dynamic
               product data, while Git and GitHub were used for version control
@@ -87,7 +91,7 @@ function Project() {
                 />{" "}
               </Link>
             </div>
-            <p className="text-base md:text-[19px] text-center lg:text-left flex-1">
+            <p className="text-base md:text-[17px] text-center lg:text-left flex-1">
               Groco Wear is a responsive e-commerce user interface developed as
               part of a group project. Git and GitHub were used for version
               control and team collaboration throughout the project.
@@ -117,7 +121,7 @@ function Project() {
                 />
               </Link>
             </div>
-            <p className="text-base md:text-[19px] text-center lg:text-left flex-1">
+            <p className="text-base md:text-[17px] text-center lg:text-left flex-1">
               A clean, responsive browser utility interface built to streamline
               web bookmarking.
             </p>
@@ -144,7 +148,7 @@ function Project() {
                 />
               </Link>
             </div>
-            <p className="text-base md:text-[19px] text-center lg:text-left flex-1">
+            <p className="text-base md:text-[17px] text-center lg:text-left flex-1">
               Social Link Profile is a responsive user interface built with
               React and Tailwind CSS, focusing on clean component-based
               development and responsive design across different screen sizes.
